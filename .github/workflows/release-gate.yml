@@ -27,7 +27,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: "TDS identity: 24f2001074@ds.study.iitm.ac.in"
-        run: echo "TDS identity: 24f2001074@ds.study.iitm.ac.in"
+        run: 'echo "TDS identity: 24f2001074@ds.study.iitm.ac.in"'
 
       - name: Run tests
         run: pytest -q
