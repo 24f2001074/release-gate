@@ -30,4 +30,6 @@ jobs:
         run: 'echo "TDS identity: 24f2001074@ds.study.iitm.ac.in"'
 
       - name: Run tests
+        env:
+            PYTHONPATH: .
         run: pytest -q
